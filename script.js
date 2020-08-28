@@ -30,9 +30,7 @@ function updateGameArea() {
 			gameover.text = "GAME OVER!";
 			gameover.update();
 
-			alert("GOOD JOB LOSER!");
-
-			console.log("Game ova");
+			alert("GAME OVER!");
 			return;
 		}
 	}
@@ -181,7 +179,6 @@ function component(x, y, color, width, height, type) {
 			}
 		}
 		else {	// the bird, dont move out of bounds
-			console.log("aksjdlsajdlkslkds");
 			if(this.x < 0) 
 				{ this.x=0; }
 			else if(this.x + this.width > myGameArea.canvas.width)  
