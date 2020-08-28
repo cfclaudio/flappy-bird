@@ -1,1 +1,1 @@
-# ghetoo-flappy-bird
+# flappy-bird
